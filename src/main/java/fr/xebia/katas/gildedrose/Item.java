@@ -7,8 +7,8 @@ public class Item {
 
    public Item(String name, int sellIn, int quality) {
       this.name = name;
-      this.quality = quality;
       this.sellIn = sellIn;
+      this.quality = quality;
    }
 
    public void setSellIn(int sellIn) {
